@@ -1,0 +1,126 @@
+h1,
+h2,
+h3,
+p,
+a,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 20px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  background: #f7f7f7;
+  display: grid;
+  gap: 60px;
+  justify-items: center;
+  margin-top: 60px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.navbar a {
+  background: #fff;
+  padding: 16px 36px;
+  border-radius: 6px;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.hero-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 40px;
+  padding: 40px;
+  background-color: #fff;
+  text-align: right;
+}
+
+.red-line {
+  position: absolute;
+  top: 30px;
+  right: -30px;
+  width: 60px;
+  height: 4px;
+  background-color: #ee2211;
+}
+
+.hero-content a {
+  background: #ee2211;
+  color: #fff;
+  padding: 16px 36px;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.hero-advantages {
+  display: flex;
+}
+
+.hero-advantages h2 {
+  font-size: 64px;
+  text-transform: uppercase;
+  color: #c6c6c6;
+  text-align: right;
+  padding: 40px;
+  align-self: center;
+}
+
+.hero-list {
+  background-color: #fff;
+  padding: 40px;
+}
+
+.hero-list li {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px 20px;
+  list-style: none;
+  padding: 20px;
+}
+
+.hero-list li p {
+  grid-column: 2;
+}
+
+footer {
+  background: #fff;
+  width: 100%;
+  text-align: center;
+  padding: 40px;
+  box-sizing: border-box;
+}
