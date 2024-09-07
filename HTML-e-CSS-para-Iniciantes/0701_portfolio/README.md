@@ -1,5 +1,7 @@
 # Project Portfolio
 
+[project link](https://jotaemecortat.github.io/origamid/HTML-e-CSS-para-Iniciantes/0701_portfolio/)
+
 The objective of this project is to create a personal portfolio for a developer and designer called "Lobo". The portfolio presents information about the developer's experience, education, and contact details, using HTML and CSS for the structure and styling of the page.
 
 Here's a summary of what was done:
@@ -7,7 +9,6 @@ Here's a summary of what was done:
 ## HTML Structure:
 
 - An `index.html` file was created to define the basic structure of the web page.
-
 
 ## CSS Styling:
 
