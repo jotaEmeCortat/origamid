@@ -4,7 +4,7 @@
   --tertiary: #e21;
   --text-color-primary: #000;
   --text-color-secondary: #fff;
-  --wave: url('./img/onda.svg');
+  --wave: url('./img/wave.svg');
 }
 
 @media (prefers-color-scheme: dark) {
@@ -14,7 +14,7 @@
     --tertiary: #e21;
     --text-color-primary: #fff;
     --text-color-secondary: #000;
-    --wave: url('./img/onda-dark.svg');
+    --wave: url('./img/wave-dark.svg');
   }
 }
 
@@ -83,13 +83,13 @@ p {
   border-color: var(--tertiary);
 }
 
-.conteudo {
+.content {
   display: grid;
   grid-template-columns: 1fr 1fr;
   max-width: 1000px;
 }
 
-.introducao {
+.introduction {
   background: var(--secondary);
   padding: 40px;
   text-align: right;
@@ -100,11 +100,11 @@ p {
   justify-items: end;
 }
 
-.introducao h1 {
+.introduction h1 {
   font-size: 2rem;
 }
 
-.introducao::before {
+.introduction::before {
   content: '';
   width: 60px;
   height: 4px;
@@ -114,12 +114,12 @@ p {
   right: -30px;
 }
 
-.introducao-cover img {
+.introduction-cover img {
   object-fit: cover;
   height: 100%;
 }
 
-.botao {
+.button {
   background: var(--tertiary);
   color: #fff;
   padding: 1rem 2rem;
@@ -128,11 +128,11 @@ p {
   font-weight: bold;
 }
 
-.botao:hover {
+.button:hover {
   filter: brightness(0.9);
 }
 
-.subtitulo {
+.subtitle {
   font-size: 4rem;
   text-transform: uppercase;
   color: var(--text-color-primary);
@@ -143,12 +143,12 @@ p {
   /* word-break: break-all; */
 }
 
-.vantagens {
+.advantages {
   background: var(--secondary);
   padding: 40px;
 }
 
-.vantagens-item {
+.advantages-item {
   display: grid;
   grid-template-columns: auto 1fr;
   gap: 10px 20px;
@@ -156,19 +156,19 @@ p {
   border-left: 4px solid transparent;
 }
 
-.vantagens-item:nth-child(odd) {
+.advantages-item:nth-child(odd) {
   background: var(--primary);
 }
 
-.vantagens-item:hover {
+.advantages-item:hover {
   border-color: var(--tertiary);
 }
 
-.vantagens-item p {
+.advantages-item p {
   grid-column: 2;
 }
 
-.rodape {
+.footer {
   background: var(--secondary);
   width: 100%;
   text-align: center;
@@ -177,10 +177,10 @@ p {
 }
 
 @media (max-width: 1000px) {
-  .conteudo-vantagem {
+  .content-advantage {
     grid-template-columns: 1fr;
   }
-  .subtitulo {
+  .subtitle {
     text-align: center;
   }
 }
@@ -195,26 +195,26 @@ p {
     gap: 30px;
   }
 
-  .conteudo {
+  .content {
     grid-template-columns: 1fr;
   }
 
-  .introducao {
+  .introduction {
     text-align: left;
     justify-items: start;
   }
 
-  .introducao::before {
+  .introduction::before {
     display: none;
   }
 
-  .subtitulo {
+  .subtitle {
     font-size: 3rem;
   }
 }
 
 @media (max-width: 400px) {
-  .subtitulo {
+  .subtitle {
     font-size: 2rem;
   }
 

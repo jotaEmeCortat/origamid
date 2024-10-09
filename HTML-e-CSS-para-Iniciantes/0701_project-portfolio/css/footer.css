@@ -12,13 +12,13 @@
   align-items: center;
 }
 
-.footer-texto {
-  font-size: 1.5rem;
+.footer-text {
+  font-size: 1.25rem;
   line-height: 1.33;
   color: #cccccc;
 }
 
-.footer-contato li {
+.footer-contact li {
   font-weight: bold;
   font-size: 2.25rem;
   line-height: 1.1;
@@ -26,7 +26,7 @@
   margin-bottom: 30px;
 }
 
-.footer-contato li a {
+.footer-contact li a {
   color: #ffffff;
 }
 
@@ -41,7 +41,7 @@
     grid-template-columns: 1fr;
     gap: 40px;
   }
-  .footer-contato li {
+  .footer-contact li {
     font-size: 1.5rem;
   }
 }

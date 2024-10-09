@@ -1,4 +1,4 @@
-.experiencia {
+.experience {
   max-width: 1200px;
   padding: 40px 20px;
   margin: 0 auto;
@@ -7,11 +7,11 @@
   gap: 100px;
 }
 
-.experiencia .subtitulo {
+.experience .subtitle {
   color: #e0e0e0;
 }
 
-.experiencia-texto {
+.experience-text {
   font-size: 1.5rem;
   line-height: 1.33;
   max-width: 40ch;
@@ -19,11 +19,11 @@
   color: #525252;
 }
 
-.experiencia-texto strong {
+.experience-text strong {
   color: #141414;
 }
 
-.empresa {
+.company {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px 20px;
@@ -34,8 +34,8 @@
   position: relative;
 }
 
-.empresa::before {
-  content: "";
+.company::before {
+  content: '';
   display: block;
   width: 4px;
   height: 20px;
@@ -45,7 +45,7 @@
   left: -4px;
 }
 
-.empresa-ano {
+.company-year {
   position: absolute;
   top: 22px;
   left: -100px;
@@ -55,26 +55,26 @@
   font-size: 0.875rem;
 }
 
-.empresa-titulo {
+.company-title {
   font-size: 1.125rem;
   line-height: 1.1;
   font-weight: bold;
 }
 
-.empresa-texto {
+.company-text {
   font-size: 0.875rem;
   line-height: 1.4;
   color: #525252;
 }
 
-.empresa-habilidades {
+.company-skills {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
   align-content: start;
 }
 
-.empresa-habilidades li {
+.company-skills li {
   font-size: 0.875rem;
   line-height: 1.4;
   border-radius: 4px;
@@ -83,17 +83,17 @@
 }
 
 @media (max-width: 800px) {
-  .experiencia {
+  .experience {
     grid-template-columns: 1fr;
     gap: 40px;
   }
-  .experiencia .subtitulo {
+  .experience .subtitle {
     color: #141414;
   }
-  .experiencia-texto {
+  .experience-text {
     font-size: 1.25rem;
   }
-  .empresa-ano {
+  .company-year {
     position: initial;
     order: 1;
     width: initial;
@@ -102,7 +102,7 @@
 }
 
 @media (max-width: 400px) {
-  .empresa {
+  .company {
     grid-template-columns: 1fr;
   }
 }
